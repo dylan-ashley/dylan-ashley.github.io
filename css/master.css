@@ -3,11 +3,11 @@ body {
 }
 
 .main {
-    background-color: rgb(168, 204, 159);
+    background-color: hsl(108, 31%, 71%);
     padding: 2em;
-    box-shadow: 0.5em 0.5em 0em rgb(194, 219, 185);
+    box-shadow: 0.5em 0.5em 0em hsl(108, 32%, 79%);
 }
 
 .main_hr {
-    border-color: rgb(127, 168, 116);
+    border-color: hsl(108, 23%, 56%);
 }
