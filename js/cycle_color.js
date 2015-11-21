@@ -1,3 +1,5 @@
+var color = Math.floor(Math.random() * 255);
+
 var change_color = function (color) {
     "use strict";
     $(".main").css("background-color", "hsl(" + color + ", 30%, 70%)");
@@ -5,9 +7,18 @@ var change_color = function (color) {
     $(".main_hr").css("border-color", "hsl(" + color + ", 30%, 60%)");
 };
 
-var random_color = function () {
+var cycle_end;
+
+var cycle_start = function () {
     "use strict";
-    change_color(Math.floor(Math.random() * 255));
+    color = (color + 1) % 256;
+    change_color(color);
+    cycle_end(color);
 };
 
-$(document).ready(random_color);
+var cycle_end = function () {
+    "use strict";
+    setTimeout(cycle_start, 10);
+};
+
+$(document).ready(cycle_start);
