@@ -1,3 +1,5 @@
+/*global $*/
+
 var change_color = function (color) {
     "use strict";
     $(".main").css("background-color", "hsl(" + color + ", 30%, 70%)");

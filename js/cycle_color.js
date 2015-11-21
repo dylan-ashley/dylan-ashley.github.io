@@ -1,3 +1,5 @@
+/*global $*/
+
 var color = Math.floor(Math.random() * 255);
 
 var change_color = function (color) {
