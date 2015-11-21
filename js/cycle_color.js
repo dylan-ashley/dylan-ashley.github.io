@@ -1,6 +1,6 @@
 /*global $*/
 
-var color = Math.floor(Math.random() * 255);
+var color = Math.floor(Math.random() * 360);
 
 var change_color = function (color) {
     "use strict";
@@ -11,7 +11,7 @@ var change_color = function (color) {
 
 var cycle_color = function () {
     "use strict";
-    color = (color + 1) % 256;
+    color = (color + 1) % 361;
     change_color(color);
 };
 
