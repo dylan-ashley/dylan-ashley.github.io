@@ -7,18 +7,10 @@ var change_color = function (color) {
     $(".main_hr").css("border-color", "hsl(" + color + ", 30%, 60%)");
 };
 
-var cycle_end;
-
-var cycle_start = function () {
+var cycle_color = function () {
     "use strict";
     color = (color + 1) % 256;
     change_color(color);
-    cycle_end(color);
 };
 
-var cycle_end = function () {
-    "use strict";
-    setTimeout(cycle_start, 10);
-};
-
-$(document).ready(cycle_start);
+$(document).ready(setInterval(cycle_color, 100));
