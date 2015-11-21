@@ -9,7 +9,7 @@ var change_color = function (color) {
 
 var random_color = function () {
     "use strict";
-    change_color(Math.floor(Math.random() * 255));
+    change_color(Math.floor(Math.random() * 360));
 };
 
 $(document).ready(random_color);
