@@ -1,6 +1,6 @@
 /*global $*/
 
-var color = Math.floor(Math.random() * 360);
+var color = 160;
 
 var change_color = function (color) {
     "use strict";
