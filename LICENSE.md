@@ -1,14 +1,14 @@
 # LICENSE
 
-This project is licenced under the MIT license. Bootstrap and bootswatch are
-licenced under the MIT licence. All aforementioned licenses appear below.
+This project is licensed under the MIT license. Bootstrap and bootswatch are
+licensed under the MIT license. All aforementioned licenses appear below.
 
 
-## dylan-ashley.github.io
+## tea-time-talks.github.io
 ```
 The MIT License (MIT)
 
-Copyright (c) 2016 Dylan Robert Ashley
+Copyright (c) 2017 Dylan Robert Ashley
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -34,7 +34,7 @@ THE SOFTWARE.
 ```
 The MIT License (MIT)
 
-Copyright (c) 2011-2015 Twitter, Inc
+Copyright (c) 2011-2016 Twitter, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

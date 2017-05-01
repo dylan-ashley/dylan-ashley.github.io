@@ -1,3 +1,3 @@
-# dylan-ashley.github.io
+# tea-time-talks.github.io
 
-This repository contains the source code for the personal web page of Dylan Ashley.
+This repository contains the source code for the web page of the amii tea time talks.
